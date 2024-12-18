@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+background-color: rgb(18, 17, 17);
+}
+
+.head{
+   
+    text-align: center;
+    margin: 40px;
+   color: rgb(182, 107, 190);
+    text-shadow: 2px 2px 4px rgba(132, 190, 158, 0.2);
+    }
+
+    
+
+    .image{
+        display: inline-block;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(10, 10, 10);
+        border: 2px solid rgb(242, 238, 238);
+           flex-basis: 50%;
+              text-align: center;
+        margin: 20px;
+        border-radius: 5px;
+               
+           }
+
+           
+           .image p {
+            color: rgb(176, 227, 176);
+                 
+            font: bold;
+           }
+
+           .image img{
+               margin: 2px;
+               
+               
+           }
+
+           .image:hover {
+            transform: scale(1.05);
+          }
+
+
+          @media screen and (max-width: 768px) {
+            .image {
+              width: 50%; /* Takes up most of the screen */
+              margin: 10px auto; /* Center images with margins */
+              display: block;
+            }
+          }
+         
+           
